@@ -3,8 +3,8 @@ import spotipy
 
 spotify = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
-        client_id = 'e93a05c09fc3425ab0fbd54f57df2169',
-        client_secret = 'e50fd824d7a14c7ba9860d3227e2f2d9',
+        client_id = '*********************',
+        client_secret = '***********************',
         redirect_uri = 'http://localhost:8000',
         scope='user-library-read user-read-playback-state user-modify-playback-state',
         cache_path='.spotifycache'
